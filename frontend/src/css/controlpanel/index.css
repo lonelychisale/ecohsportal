@@ -1,0 +1,130 @@
+.controlpanel{
+    background-color: whitesmoke;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.controlpanel .controlpanelflex{
+    display: flex;
+}
+.controlpanel .controlpanelflex .leftdiv{
+    background-color: rgb(3, 3, 34);
+    width: 15vw;
+    height: 100vh;
+    border-right: 1px solid silver;
+
+}
+.controlpanel .controlpanelflex .leftdiv .controlpanelmenu{
+    position: absolute;
+    width: inherit;
+}
+.controlpanel .controlpanelflex .leftdiv .controlpanelmenu ul li{
+    width: 100%;
+    background-color: white;
+    list-style-type: none;
+    margin-left: -30px;
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+    
+}
+.controlpanel .controlpanelflex .leftdiv .controlpanelmenu ul li span{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+.controlpanel .controlpanelflex .leftdiv .controlpanelmenu ul .controlpaneldashboard{
+    background-color: rgba(135, 133, 133, 0.818);
+    color: white;
+}
+.dropdown{
+    display: block;
+    position: relative;
+    margin-left: -20px;
+    width: 85%;  
+}
+.dropdown.documents{
+    display: block;
+    position: relative;
+    margin-left: -20px;
+    width: 85%;
+}
+.dropdown.accommodation{
+    margin-left: 10px; 
+}
+
+.controlpanelrightdiv{
+    width: calc(100vw - 15vw);
+}
+.controlpanelrightdiv .rightdivheader{
+    position: fixed;
+    background-color: rgb(3, 3, 34);
+    width: inherit;
+    height: 120px;
+}
+.controlpanelrightdiv .rightdivheader header .upperheader{
+    background-color: white;
+    height: 70px;
+    border-bottom: 1px solid silver;
+    display: flex;
+}
+.controlpanelrightdiv .rightdivheader header .upperheader .left{
+    margin-top: 20px;
+}
+.controlpanelrightdiv .rightdivheader header .upperheader .left span{
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-size: 30px;
+
+}
+.controlpanelrightdiv .rightdivheader header .upperheader .right{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+.controlpanelrightdiv .rightdivheader header .upperheader .right img{
+    width: 90px;
+    height: 70px;
+    border-radius: 50%;
+}
+.controlpanelrightdiv .rightdivheader header .lowerheader{
+   padding-bottom: 30px;
+
+}
+.controlpanelrightdiv .rightdivheader header .lowerheader h3{
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.controlpanelcontentdiv{
+    margin-top: 120px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+.loginuserinfo{
+   
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: -330px;
+}
+.loginuserinfo table{
+    border: 1px solid black;
+    width: 100%;
+
+}
+.loginuserinfo table th{
+    text-align: left;
+}
+.loginuserinfo table th,td{
+    text-transform: capitalize;
+    border: 1px solid black;
+   
+}
+

@@ -1,0 +1,78 @@
+.viewusers{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.viewusers .wrappviewusers{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.viewusers .wrappviewusers .userstable{
+    width: 1300px;
+    max-width: 95%;
+    margin-top: 50px;
+}
+.viewusers .wrappviewusers .userstable table{
+    width: 100%;
+    border: 1px solid black;
+    border-spacing: 0;
+}
+.viewusers .wrappviewusers .userstable table th{
+    font-weight: 600;
+}
+.viewusers .wrappviewusers .userstable table th,td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+.viewusers .wrappviewusers .userstable table td{
+    padding: 5px;
+}
+.tableheading{
+    display: flex;
+    height: 30px;
+}
+.tableheading h3{
+    margin-top: -1px;
+}
+.tableheading .searchform{
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+.tableheading .searchform form{
+    width: 700px;
+    max-width: 99%;
+}
+.tableheading .searchform form .form-group{
+    display: flex;
+}
+.tableheading .searchform form .form-group input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-transform: capitalize;
+    outline: none;
+}
+.tableheading .searchform form .form-group input[type='submit']{
+    width: 10%;
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 2px;
+    text-transform: uppercase;
+    background-color: silver;
+    color: white;
+}

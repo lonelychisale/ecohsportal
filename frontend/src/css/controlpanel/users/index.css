@@ -1,0 +1,75 @@
+.addusers{
+    position: absolute;
+    background-color: whitesmoke;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.addusers .wrappusersform{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    
+}
+.addusers .wrappusersform .form{
+    width: 600px;
+    max-width: 90%;
+    
+}
+.addusers .wrappusersform .form form .card{
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0%;
+    height: auto;
+}
+.addusers .wrappusersform .form form .card .cardheader{
+    border-bottom: 1px solid silver;
+}
+.addusers .wrappusersform .form form .card .cardheader h3{
+    margin: 0;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: serif;
+}
+.addusers .wrappusersform .form form .card .cardbody{
+    padding: 20px;
+}
+.addusers .wrappusersform .form form .card .cardbody .form-group{
+    margin-top: 30px;
+}
+.addusers .wrappusersform .form form .card .cardbody .form-group label{
+    position: absolute;
+    margin-top: -20px;
+    text-transform: capitalize;
+}
+.addusers .wrappusersform .form form .card .cardbody .form-group select {
+    text-transform: capitalize;
+}
+.addusers .wrappusersform .form form .card .cardbody .form-group input,select{
+    width: 100%;
+    height: 28px;
+    border: 0;
+    border: 1px solid silver;
+    border-radius: 2px;
+    outline: unset;
+}
+.addusers .wrappusersform .form form .card .cardbody .form-group input[type='submit'],select{
+    width: 101.1%;
+    height: 30px;
+}
+.addusers .wrappusersform .form form .card .cardbody .form-group input[type='submit']{
+    margin-top: -30px;
+    text-transform: uppercase;
+    background-color: rgb(3, 3, 34);
+    color: white;
+}
+.addusers .wrappusersform .form form .card .cardbody .form-group.submit button{
+    padding: 5px;
+    width: 80px;
+    margin-top: 10px;
+}

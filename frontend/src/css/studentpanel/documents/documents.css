@@ -1,0 +1,95 @@
+.documents{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+}
+.documentsheader{
+    background-color: rgb(5, 5, 67);
+    width: 100%;
+   
+}
+
+.headerseperator{
+    display: flex;
+}
+.headerseperator .leftheader{
+    width: 50%;
+}
+.headerseperator .leftheader h1{
+    margin-left: 30px;
+    text-transform: capitalize;
+    color: white;
+    font-family: serif;
+}
+.headerseperator .rightheader{
+    width: 50%;
+    align-items: end;
+}
+.headerseperator .rightheader form{
+   margin-right: 0px;
+   width: 100%;
+   margin-left: 100px;
+   margin-top: 30px;
+}
+.headerseperator .rightheader form input{
+    width: 40%;
+    height: 30px;
+    border: none;
+    border: 2px solid silver;
+    text-transform: capitalize;
+}
+.headerseperator .rightheader form input[type="submit"]{
+    width: 20%;
+    height: 37px;
+    background-color: orange;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    border: 2px solid orange;
+
+}
+
+.documentsdiv{
+    width: 95%;
+    text-align: center;
+}
+ .card {
+    height: 220px;
+    background-color: white !important;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.card:hover{
+    box-shadow: 10px 0px 10px 0px silver;
+}
+.card .header{
+
+    border-bottom: 1px solid silver;
+    font-size: 10px;
+    text-transform: capitalize;
+    font-family: serif;
+}
+.card .header h1{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.card .body{
+    border-bottom: 1px solid silver;
+    padding-bottom: 20px;
+    height: 100px;
+    
+}
+.card .body p{
+    text-align: left;
+    margin-left: 10px;
+   
+  
+}
+.footer i{
+    text-align: left !important;
+   
+}

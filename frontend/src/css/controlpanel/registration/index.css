@@ -1,0 +1,49 @@
+.uploadregistration{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.uploadregistration .wrappuploadregistration{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.uploadregistration .wrappuploadregistration .uploadreg.card{
+    box-shadow: unset;
+    border-radius: 2px;
+    padding: 20px;
+    height: auto;
+    width: 500px;
+    max-width: 90%;
+}
+.uploadregistration .wrappuploadregistration .uploadreg.card .form form{
+    padding: 10px;
+    text-transform: capitalize;
+}
+.uploadregistration .wrappuploadregistration .uploadreg.card .form form h3{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+.uploadregistration .wrappuploadregistration .uploadreg.card .form form .form-group{
+    margin-top: 10px;
+}
+.uploadregistration .wrappuploadregistration .uploadreg.card .form form .form-group select{
+    text-transform:uppercase;
+    height: 25px;
+}
+.uploadregistration .wrappuploadregistration .uploadreg.card .form form .form-group input[type='submit']{
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

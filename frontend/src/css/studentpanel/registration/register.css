@@ -1,0 +1,74 @@
+.registration{
+    background-color: silver;
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+.registration .registrationform{
+    background-color: white;
+    width: 500px;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 900px;
+    padding: 20px;
+   
+}
+
+.registrationform .form h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.registrationform .form form h2{
+    text-align: center;
+    text-transform: capitalize; 
+    padding-bottom: 20px;
+}
+.registrationform .form form .form-group{
+    margin-top: 35px;
+}
+.registrationform .form form .form-group label{
+    position: absolute;
+    margin-top: -25px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: gray;
+}
+.registrationform .form form .form-group input,.registrationform .form form .form-group textarea,.registrationform .form form .form-group select{
+    width: 100%;
+    height: 25px;
+    border: none;
+    border: 2px solid silver;
+    border-radius: 3px;
+    outline: unset;
+    color: grey;
+}
+.registrationform .form form .form-group input[type="submit"]{
+    background-color: rgb(63, 61, 61);
+    margin-top: -30px;
+    color: white;
+    text-transform: uppercase;
+    height: 35px;
+}
+.registrationform .form form .form-group input[type="radio"]{
+    width: 20%;
+}
+.radioinputs{
+    display: flex;
+}
+.radioinputs h4{
+    margin-top: -0px;
+    font-size: 20px;
+    color: gray;
+    text-transform: capitalize;
+}
+.registrationform .form form .form-group select{
+    text-transform: capitalize;
+    height: 30px;
+}
+
+.registrationform .form form .form-group select option{
+    text-transform: capitalize;
+}
+.registrationform .form form .form-group textarea{
+    height: 100px;
+}
