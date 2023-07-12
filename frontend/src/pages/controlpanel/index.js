@@ -159,32 +159,32 @@ function Controlpanelindex(){
                             </div>
                         </header>
                     </div>
+                    
 
-                    <div className='controlpanelcontentdiv'>
-                        <div className='wrappingcontent'>
-                            <div className='loginuserinfo'>
-                                <table cellPadding='5px' cellSpacing='0px'>
-                                    <tr>
-                                        <th>full name</th>
-                                        <th>username</th>
-                                        <th>password</th>
-                                        <th>login time</th>
-                                    </tr>
-                                    <tr>
-                                        <td>lonely chisale</td>
-                                        <td>lochisale</td>
-                                        <td>1blantyre</td>
-                                        <td>2:00pm</td>
-                                    </tr>
-                                </table>
-                            </div>
-
-
-                            <div className='controlpaneliframes'>
-                                <div></div>
+                    <div className='conntropanelcontent'>
+                        <div className='wrapcontents'>
+                            <div className='wrappedcontents'>
+                                <div className='logindetalis'>
+                                    <table cellSpacing={0}>
+                                        <tr>
+                                            <th>full name</th>
+                                            <th>username</th>
+                                            <th>password</th>
+                                            <th>login time</th>
+                                        </tr>
+                                        <tr>
+                                            <td>lonely chisale</td>
+                                            <td>lonechi</td>
+                                            <td>1Blantyre</td>
+                                            <td>2pm</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
+                                 
+                   
                 </div>
             </div>
         </div>

@@ -100,31 +100,34 @@
     padding-bottom: 20px;
     margin-left: 20px;
 }
-.controlpanelcontentdiv{
+.conntropanelcontent{
     margin-top: 120px;
+    background-color: red;
+}.conntropanelcontent .wrapcontents{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-
-}
-.loginuserinfo{
-   
-    margin-top: 50px;
-    width: 1000px;
-    margin-left: -330px;
-}
-.loginuserinfo table{
-    border: 1px solid black;
     width: 100%;
-
+    justify-content: center;
+    display: flex;
 }
-.loginuserinfo table th{
+.conntropanelcontent .wrapcontents .wrappedcontents{
+   width: 1000px;
+   margin-right: 200px;
+   max-width: 90%;
+}
+
+.logindetalis{
+    margin-top: 50px;
+}
+.logindetalis table{
+    width: 100%;
+    border: 2px solid black;
+}
+.logindetalis table th{
+    text-transform: capitalize;
+}
+.logindetalis table th,td{
+    border: 1px solid black;
     text-align: left;
 }
-.loginuserinfo table th,td{
-    text-transform: capitalize;
-    border: 1px solid black;
-   
-}
+
 
